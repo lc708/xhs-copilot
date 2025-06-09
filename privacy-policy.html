@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XHS Copilot - 隐私政策</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+        .container {
+            background: white;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #2c3e50;
+            border-bottom: 3px solid #e74c3c;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #34495e;
+            margin-top: 30px;
+            border-left: 4px solid #3498db;
+            padding-left: 15px;
+        }
+        h3 {
+            color: #34495e;
+            margin-top: 25px;
+        }
+        .highlight {
+            background-color: #fff3cd;
+            border: 1px solid #ffeaa7;
+            border-radius: 5px;
+            padding: 15px;
+            margin: 15px 0;
+        }
+        .summary {
+            background-color: #d1ecf1;
+            border: 1px solid #bee5eb;
+            border-radius: 5px;
+            padding: 15px;
+            margin: 20px 0;
+            font-weight: bold;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        li {
+            margin: 8px 0;
+        }
+        .emoji {
+            font-size: 1.2em;
+        }
+        code {
+            background-color: #f8f9fa;
+            padding: 2px 5px;
+            border-radius: 3px;
+            font-family: 'Courier New', monospace;
+        }
+        .footer {
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #ddd;
+            text-align: center;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🔒 隐私政策 (Privacy Policy)</h1>
+        
+        <div class="summary">
+            <strong>简要说明：</strong> XHS Copilot 是一个注重隐私的本地工具，不收集用户个人信息，所有数据处理均在用户设备本地完成。
+        </div>
+
+        <h2>XHS Copilot - 小红书AI助手</h2>
+        <p><strong>最后更新：</strong>2024年12月</p>
+
+        <h3>1. 信息收集</h3>
+        <div class="highlight">
+            <strong>我们不收集任何个人身份信息</strong>
+        </div>
+        
+        <p>XHS Copilot 是一个完全在本地运行的浏览器扩展，我们承诺：</p>
+        <ul>
+            <li><span class="emoji">❌</span> 不收集用户的个人信息（姓名、邮箱、电话等）</li>
+            <li><span class="emoji">❌</span> 不收集用户的浏览历史记录</li>
+            <li><span class="emoji">❌</span> 不追踪用户行为数据</li>
+            <li><span class="emoji">❌</span> 不上传用户生成的内容到我们的服务器</li>
+        </ul>
+
+        <h3>2. 数据存储</h3>
+        <h4>本地存储</h4>
+        <ul>
+            <li>用户设置（API配置、功能开关）存储在本地浏览器中</li>
+            <li>使用统计数据（使用次数等）仅在本地存储</li>
+            <li>所有数据均可通过扩展设置页面清除</li>
+        </ul>
+
+        <h3>3. 第三方服务与远程代码</h3>
+        <h4>API 调用</h4>
+        <ul>
+            <li>当用户选择使用AI功能时，会向用户配置的AI服务（如DeepSeek、OpenAI）发送文本内容</li>
+            <li>默认免费服务通过我们的Cloudflare Worker代理，不记录用户数据</li>
+            <li>用户可选择使用自己的API Key，此时数据直接发送到对应AI服务商</li>
+        </ul>
+
+        <h4>远程代码使用说明</h4>
+        <ul>
+            <li><span class="emoji">❌</span> <strong>不使用远程代码</strong>：扩展不从远程服务器下载或执行任何JavaScript代码</li>
+            <li><span class="emoji">❌</span> <strong>不动态执行代码</strong>：不使用eval()、new Function()或类似的动态代码执行功能</li>
+            <li><span class="emoji">✅</span> <strong>仅数据请求</strong>：所有远程调用仅用于获取AI生成的文本数据，不涉及代码执行</li>
+            <li><span class="emoji">✅</span> <strong>本地处理</strong>：所有功能逻辑完全在本地JavaScript中实现</li>
+        </ul>
+
+        <h4>小红书平台</h4>
+        <ul>
+            <li>扩展仅在 xiaohongshu.com 域名下运行</li>
+            <li>不修改或影响小红书的正常功能</li>
+            <li>仅读取公开展示的内容信息</li>
+        </ul>
+
+        <h3>4. 权限使用说明</h3>
+        <p><strong>必需权限及用途：</strong></p>
+        <ul>
+            <li><code>activeTab</code>: 检测当前是否在小红书页面，获取当前标签页信息</li>
+            <li><code>tabs</code>: 用于以下必要功能：
+                <ul>
+                    <li>从设置页面快速跳转到小红书网站</li>
+                    <li>向小红书页面发送配置更新消息</li>
+                    <li>查询已打开的小红书标签页以同步设置</li>
+                    <li>在popup中提供"打开小红书"快捷功能</li>
+                </ul>
+            </li>
+            <li><code>downloads</code>: 提供笔记和图片下载功能</li>
+            <li><code>storage</code>: 保存用户设置到本地</li>
+            <li><code>scripting</code>: 在小红书页面注入功能脚本</li>
+            <li><code>host_permissions</code>: 仅在小红书域名下运行</li>
+        </ul>
+
+        <h3>5. 数据安全</h3>
+        <ul>
+            <li>所有敏感数据（如API Key）均加密存储在本地</li>
+            <li>不向任何第三方分享用户数据</li>
+            <li>tabs权限仅用于功能必需的页面操作，不读取其他网站内容</li>
+            <li>扩展仅在小红书网站上激活，不影响其他网站浏览</li>
+            <li>开源代码，用户可自行审计</li>
+        </ul>
+
+        <h3>6. 用户权利</h3>
+        <p>用户有权：</p>
+        <ul>
+            <li>随时删除所有本地存储的数据</li>
+            <li>停用任何功能模块</li>
+            <li>卸载扩展并清除所有相关数据</li>
+        </ul>
+
+        <h3>7. 联系我们</h3>
+        <p>如有隐私相关问题，请通过以下方式联系：</p>
+        <ul>
+            <li>GitHub Issues: <a href="https://github.com/lc708/xhs-copilot/issues">https://github.com/lc708/xhs-copilot/issues</a></li>
+            <li>项目主页: <a href="https://github.com/lc708/xhs-copilot">https://github.com/lc708/xhs-copilot</a></li>
+        </ul>
+
+        <h3>8. 政策更新</h3>
+        <p>隐私政策如有更新，将在扩展更新时通知用户。继续使用扩展即表示同意更新后的政策。</p>
+
+        <div class="footer">
+            <p><strong>XHS Copilot v0.0.1</strong></p>
+            <p>本隐私政策适用于Chrome扩展"XHS Copilot - 小红书AI助手"</p>
+            <p>最后更新：2025年6月</p>
+        </div>
+    </div>
+</body>
+</html> 
