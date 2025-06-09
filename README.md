@@ -1,6 +1,6 @@
 # XHS Copilot 用户使用指南
 
-📋 **相关文档**: [隐私政策](./privacy-policy.html) | [GitHub 项目主页](https://github.com/lc708/xhs-copilot)
+📋 **相关文档**: [隐私政策](./privacy-policy.html) | [用户指南](https://lc708.github.io/xhs-copilot/)
 
 ## 🎯 插件简介
 
@@ -193,7 +193,7 @@ A:
 
 ## 📞 支持与反馈
 
-- **使用文档**: [https://github.com/lc708/xhs-copilot](https://github.com/lc708/xhs-copilot)
+- **使用文档**: [https://lc708.github.io/xhs-copilot/](https://lc708.github.io/xhs-copilot/)
 - **问题反馈**: [https://github.com/lc708/xhs-copilot/issues](https://github.com/lc708/xhs-copilot/issues)
 - **功能建议**: 欢迎在 GitHub 仓库提交 Issue
 - **隐私政策**: [查看完整隐私政策](./privacy-policy.html)
