@@ -1,5 +1,7 @@
 # XHS Copilot 用户使用指南
 
+📋 **相关文档**: [隐私政策](./privacy-policy.html) | [GitHub 项目主页](https://github.com/lc708/xhs-copilot)
+
 ## 🎯 插件简介
 
 XHS Copilot 是一款专为小红书用户设计的智能助手浏览器扩展，提供 AI 文案创作、爆款内容识别、笔记下载等功能，帮助您高效创作和管理小红书内容。
@@ -194,6 +196,7 @@ A:
 - **使用文档**: [https://github.com/lc708/xhs-copilot](https://github.com/lc708/xhs-copilot)
 - **问题反馈**: [https://github.com/lc708/xhs-copilot/issues](https://github.com/lc708/xhs-copilot/issues)
 - **功能建议**: 欢迎在 GitHub 仓库提交 Issue
+- **隐私政策**: [查看完整隐私政策](./privacy-policy.html)
 
 ---
 
