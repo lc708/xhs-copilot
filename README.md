@@ -1,6 +1,6 @@
 # XHS Copilot 用户使用指南
 
-🔥 **最新版本**: [Chrome Web Store安装](https://chromewebstore.google.com/detail/piahoddcinhbcecjcgfjddbjpnoajehp) | 📋 **相关文档**: [隐私政策](./privacy-policy.html) | [GitHub仓库](https://github.com/lc708/xhs-copilot)
+🔥 **最新版本**: [Chrome Web Store安装](https://chromewebstore.google.com/detail/piahoddcinhbcecjcgfjddbjpnoajehp) | 📋 **相关文档**: [隐私政策](./privacy-policy.html) | [用户指南](https://lc708.github.io/xhs-copilot/)
 
 ## 🎯 插件简介
 
