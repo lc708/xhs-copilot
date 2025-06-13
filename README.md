@@ -1,6 +1,6 @@
 # XHS Copilot 用户使用指南
 
-📋 **相关文档**: [隐私政策](./privacy-policy.html) | [用户指南](https://lc708.github.io/xhs-copilot/)
+🔥 **最新版本**: [Chrome Web Store安装](https://chromewebstore.google.com/detail/piahoddcinhbcecjcgfjddbjpnoajehp) | 📋 **相关文档**: [隐私政策](./privacy-policy.html) | [GitHub仓库](https://github.com/lc708/xhs-copilot)
 
 ## 🎯 插件简介
 
@@ -10,10 +10,10 @@ XHS Copilot 是一款专为小红书用户设计的智能助手浏览器扩展�
 
 ### 方法一：Chrome 应用商店（推荐）
 1. 打开 Chrome 浏览器
-2. 访问 [Chrome 应用商店]() （待发布）
-3. 搜索 "XHS Copilot"
-4. 点击"添加到 Chrome"按钮
-5. 在弹窗中点击"添加扩展程序"
+2. 访问 [Chrome 应用商店](https://chromewebstore.google.com/detail/piahoddcinhbcecjcgfjddbjpnoajehp)
+3. 点击"添加到 Chrome"按钮
+4. 在弹窗中点击"添加扩展程序"
+5. 扩展安装成功后，工具栏会出现 🔥 图标
 
 ### 方法二：手动安装
 1. 下载最新版本的扩展文件包
